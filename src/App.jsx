@@ -1,10 +1,10 @@
-import React from 'react'
-import { motion } from "motion/react"
+import React from "react";
+import { motion } from "motion/react";
 
 const App = () => {
   return (
-    <motion.div className="box" />
-  )
-}
+    <div className="flex justify-center items-center h-screen bg-black"></div>
+  );
+};
 
-export default App
+export default App;
